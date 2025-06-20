@@ -84,14 +84,4 @@ sns.countplot(data=df, x='FamilySize', hue='Survived')
 plt.title("Survival by Family Size")
 plt.show()
 
-# ------------------------
-# 🔍 Key Insights
-# ------------------------
-print("\n🔍 Key Insights:")
-print("""
-1. Females had a much higher survival rate.
-2. Passengers in 1st class were more likely to survive.
-3. Being alone reduced survival chances.
-4. Children and young adults had higher survival.
-5. Very large families (>4) had lower survival rates.
-""")
+
